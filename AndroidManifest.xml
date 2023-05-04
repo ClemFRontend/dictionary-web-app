@@ -1,0 +1,4 @@
+<activity
+    android:windowSoftInputMode="adjustPan"
+    android:fitsSystemWindows="true"
+>
