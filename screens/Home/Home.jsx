@@ -1,11 +1,11 @@
 import { StyleSheet, View, Platform } from 'react-native';
-import SearchBar from '../../components/SearchBar/SearchBar';
-import Header from '../../components/Header/Header';
+import SearchBar from '../../components/SearchBar/SearchBar.jsx';
+import Header from '../../components/Header/Header.jsx';
 import { useState } from 'react';
 import Constants from 'expo-constants';
-import NoDefFound from '../../components/NoDefFound/NoDefFound';
-import WordDef from '../../components/WordDef/WordDef';
-import { globalStyles } from '../../style';
+import NoDefFound from '../../components/NoDefFound/NoDefFound.jsx';
+import WordDef from '../../components/WordDef/WordDef.jsx';
+import { globalStyles } from '../../style.js';
 
 export default function Home() {
 

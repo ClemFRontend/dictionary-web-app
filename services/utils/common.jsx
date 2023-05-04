@@ -1,5 +1,3 @@
-
-
 import { Keyboard } from 'react-native'
 
 export function exitField() {

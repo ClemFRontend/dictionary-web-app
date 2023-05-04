@@ -1,6 +1,6 @@
 import { Text, StyleSheet } from 'react-native'
 import { useSelector } from 'react-redux'
-import { colorsPalette } from '../../style'
+import { colorsPalette } from '../../style.js'
 
 export function Heading({ size = "L", customStyle, underline = false, italic = false, bold = false, children }) {
     const fontFamily = useSelector(state => bold ? state.font.value + " Bold" : state.font.value)

@@ -1,7 +1,6 @@
-import { StyleSheet } from 'react-native'
 import { useSelector } from 'react-redux'
 import { StatusBar as ExpoStatusBar } from 'expo-status-bar';
-import { colorsPalette } from '../../style';
+import { colorsPalette } from '../../style.js';
 
 export default function StatusBar() {
 

@@ -1,10 +1,10 @@
 import { useRef, useState } from 'react'
 import { View, StyleSheet, TextInput, Pressable, Platform, ActivityIndicator } from 'react-native'
-import { colorsPalette, globalStyles } from '../../style'
-import { IconCross, IconMagnify } from '../../assets/icons/icons'
+import { colorsPalette, globalStyles } from '../../style.js'
+import { IconCross, IconMagnify } from '../../assets/icons/icons.js'
 import { useSelector } from 'react-redux'
-import { Body } from '../Text/Text'
-import { fetchWordDef } from '../../services/api'
+import { Body } from '../Text/Text.jsx'
+import { fetchWordDef } from '../../services/api.js'
 
 export default function SearchBar({ setData }) {
 

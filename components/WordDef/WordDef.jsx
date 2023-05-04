@@ -1,10 +1,10 @@
 import { Linking, ScrollView, StyleSheet, TouchableOpacity, TouchableWithoutFeedback, View } from 'react-native'
-import { Body, Heading } from '../Text/Text'
-import { IconNewWindow } from '../../assets/icons/icons'
+import { Body, Heading } from '../Text/Text.jsx'
+import { IconNewWindow } from '../../assets/icons/icons.js'
 import PlaySound from '../PlaySound/PlaySound'
-import { colorsPalette, globalStyles } from '../../style'
+import { colorsPalette, globalStyles } from '../../style.js'
 import { useSelector } from 'react-redux'
-import { exitField } from '../../services/utils/common'
+import { exitField } from '../../services/utils/common.jsx'
 import { useRef } from 'react'
 
 export default function WordDef({ data }) {
@@ -13,7 +13,11 @@ export default function WordDef({ data }) {
     const scrollViewRef = useRef()
 
     // Reset scroll position when re-render
-    scrollViewRef.current.scrollTo({ x: 0, y: 0, animated: true })
+    try {
+        scrollViewRef.current.scrollTo({ x: 0, y: 0, animated: true })
+    } catch (error) {
+
+    }
 
     return (
         <ScrollView ref={scrollViewRef} contentContainerStyle={{ paddingBottom: 50 }}>

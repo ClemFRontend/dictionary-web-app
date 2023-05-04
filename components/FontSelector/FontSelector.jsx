@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import { View, StyleSheet, Button, Pressable, Alert } from 'react-native'
+import { View, StyleSheet, Pressable } from 'react-native'
 import { useDispatch, useSelector } from 'react-redux'
-import { setFont } from '../../features/fontSelectorSlice/fontSelectorSlice'
-import { Body } from '../Text/Text'
-import { colorsPalette, globalStyles } from '../../style'
-import { IconArrowDown } from '../../assets/icons/icons'
-import { exitField } from '../../services/utils/common'
+import { setFont } from '../../features/fontSelectorSlice/fontSelectorSlice.jsx'
+import { Body } from '../Text/Text.jsx'
+import { colorsPalette, globalStyles } from '../../style.js'
+import { IconArrowDown } from '../../assets/icons/icons.js'
+import { exitField } from '../../services/utils/common.jsx'
 
 export default function FontSelector() {
 

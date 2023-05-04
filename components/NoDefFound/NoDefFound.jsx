@@ -1,7 +1,7 @@
 import { Image, StyleSheet, TouchableWithoutFeedback, View } from 'react-native'
-import { Body, Heading } from '../Text/Text'
-import { exitField } from '../../services/utils/common'
-import { colorsPalette } from '../../style'
+import { Body, Heading } from '../Text/Text.jsx'
+import { exitField } from '../../services/utils/common.jsx'
+import { colorsPalette } from '../../style.js'
 
 export default function NoDefFound({ data }) {
 

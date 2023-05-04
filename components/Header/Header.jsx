@@ -1,8 +1,8 @@
 import { StatusBar, StyleSheet, Text, View } from 'react-native'
-import { colorsPalette, globalStyles } from '../../style'
-import FontSelector from '../FontSelector/FontSelector'
-import ThemeSwitcher from '../ThemeSwitcher/ThemeSwitcher'
-import { Logo } from '../../assets/icons/icons'
+import { colorsPalette, globalStyles } from '../../style.js'
+import FontSelector from '../FontSelector/FontSelector.jsx'
+import ThemeSwitcher from '../ThemeSwitcher/ThemeSwitcher.jsx'
+import { Logo } from '../../assets/icons/icons.js'
 
 export default function Header() {
     return (

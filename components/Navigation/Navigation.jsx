@@ -1,8 +1,8 @@
 import { StyleSheet } from 'react-native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Home from '../../screens/Home/Home';
+import Home from '../../screens/Home/Home.jsx';
 import { useSelector } from 'react-redux';
-import { colorsPalette } from '../../style';
+import { colorsPalette } from '../../style.js';
 
 const Stack = createNativeStackNavigator();
 

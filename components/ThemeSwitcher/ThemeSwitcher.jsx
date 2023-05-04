@@ -1,11 +1,11 @@
 import { View, StyleSheet, Switch, Platform } from 'react-native'
-import { colorsPalette, globalStyles } from '../../style'
-import { IconMoon } from '../../assets/icons/icons'
+import { colorsPalette, globalStyles } from '../../style.js'
+import { IconMoon } from '../../assets/icons/icons.js'
 import { useDispatch, useSelector } from 'react-redux'
-import { setTheme } from '../../features/themeSwitcherSlice/themeSwitcherSlice'
+import { setTheme } from '../../features/themeSwitcherSlice/themeSwitcherSlice.jsx'
 import { Appearance, useColorScheme } from 'react-native';
 import { useEffect } from 'react'
-import { exitField } from '../../services/utils/common'
+import { exitField } from '../../services/utils/common.jsx'
 
 export function ThemeSwitcher() {
 

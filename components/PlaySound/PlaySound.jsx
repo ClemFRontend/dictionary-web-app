@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react';
 import { ActivityIndicator, Alert, Pressable } from 'react-native'
 import { Audio } from 'expo-av';
 import { Path } from 'react-native-svg';
-import { IconPlay } from '../../assets/icons/icons';
-import { colorsPalette } from '../../style';
+import { IconPlay } from '../../assets/icons/icons.js';
+import { colorsPalette } from '../../style.js';
 
 export default function PlaySound({ audios }) {
 
